@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.line-path {
+  fill: none;
+  stroke-width: 5;
+  stroke-linejoin: round;
+}
+
+.tick text {
+	fill: #635F5D;
+  font-size: 1.4em;
+}
+
+text {
+  font-family: sans-serif;
+}
+
+.tick line {
+  stroke: #C0C0BB;
+}
+
+.title {
+  font-size: 1em;
+  fill: #635F5D;
+}
+
+.axis-label {
+  font-size: 2.2em;
+  fill: #8E8883;
+}
+
+div.tooltip {	
+    		position: absolute;			
+    		text-align: center;			
+    		width: 320px;					
+    		height: 100px;					
+    		padding: 2px;				
+    		font: 12px sans-serif;		
+    		border: 0px;		]
+    		border-radius: 8px;			
+    		pointer-events: none;						
+}
+
+.linechart-axis-label {
+  font-size: 1.8em;
+  fill: #8E8883;
+}
+
+lineChartCircle {
+  fill: #1b9e77;
+  opacity: 0.7;
+}
+
+.lineChartTitle {
+  font-size: 1em;
+  fill: #635F5D;
+}
+
+
+div.lineChartTooltip {
+    position: absolute;			
+    text-align: center;			
+    width: 180px;					
+    height: 60px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: #7570b3;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+div.barChartTooltip {
+    position: absolute;			
+    text-align: center;			
+    width: 180px;					
+    height: 50px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: #fee0d2;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+barGraphCircle {
+  opacity: 0.7;
+}
+
+.bargraph-axis-label {
+  font-size: 1.8em;
+  fill: #8E8883;
+}
+
+.barGraphtTitle {
+  font-size: 1em;
+  fill: #635F5D;
+}
